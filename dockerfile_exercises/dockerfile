@@ -1,0 +1,17 @@
+############################ Example 2 ######################################
+
+# Start from a Java 8 environment:
+FROM java:8
+# Rest of instructions follow
+
+########################## example 1 #####################################
+
+# # Start from NGINX image
+# FROM nginx:latest
+# # Add our own NGINX webpage
+# COPY index.html /usr/share/nginx/html/
+
+############################## old #####################################
+
+#FROM nginx:latest
+#echo RUN printf 'My Custom NGINX Image\n' > /usr/share/nginx/html/index.html
